@@ -46,7 +46,9 @@
     [super viewDidLoad];
     self.view.backgroundColor = backColor;
     self.title = @"关注";
-    _midStr = @"ed48b2ecda7f485e9c3353ecfb53f3f5";
+    if ([_midStr isEqualToString:@""]) {
+        _midStr = @"ed48b2ecda7f485e9c3353ecfb53f3f5";
+    }
     _bgdImage = [[UIImageView alloc]init];
     _bgdImage.image = [UIImage imageNamed:@"列表无内容.png"];
     _bgdImage.frame = CGRectMake(0, (self.view.frame.size.height-self.view.frame.size.width)/2, self.view.frame.size.width, self.view.frame.size.width);
