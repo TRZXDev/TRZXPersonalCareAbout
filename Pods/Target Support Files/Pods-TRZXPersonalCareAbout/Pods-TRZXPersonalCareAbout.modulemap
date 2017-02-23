@@ -1,0 +1,6 @@
+framework module Pods_TRZXPersonalCareAbout {
+  umbrella header "Pods-TRZXPersonalCareAbout-umbrella.h"
+
+  export *
+  module * { export * }
+}
