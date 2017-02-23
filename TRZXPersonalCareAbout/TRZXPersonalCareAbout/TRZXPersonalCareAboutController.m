@@ -46,7 +46,7 @@
     [super viewDidLoad];
     self.view.backgroundColor = backColor;
     self.title = @"关注";
-    if ([_midStr isEqualToString:@""]) {
+    if (_midStr.length == 0) {
         _midStr = @"ed48b2ecda7f485e9c3353ecfb53f3f5";
     }
     _bgdImage = [[UIImageView alloc]init];
