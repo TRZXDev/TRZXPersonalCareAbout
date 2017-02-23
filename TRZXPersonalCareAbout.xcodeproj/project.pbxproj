@@ -10,7 +10,6 @@
 		26297C0F73E9277081BC9983 /* Pods_TRZXPersonalCareAbout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 849868EFCBAEE321C22FE128 /* Pods_TRZXPersonalCareAbout.framework */; };
 		B70D45951E5ED1DB000E2C4D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B70D45941E5ED1DB000E2C4D /* main.m */; };
 		B70D45981E5ED1DB000E2C4D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B70D45971E5ED1DB000E2C4D /* AppDelegate.m */; };
-		B70D459B1E5ED1DB000E2C4D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B70D459A1E5ED1DB000E2C4D /* ViewController.m */; };
 		B70D459E1E5ED1DB000E2C4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B70D459C1E5ED1DB000E2C4D /* Main.storyboard */; };
 		B70D45A01E5ED1DB000E2C4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B70D459F1E5ED1DB000E2C4D /* Assets.xcassets */; };
 		B70D45A31E5ED1DB000E2C4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B70D45A11E5ED1DB000E2C4D /* LaunchScreen.storyboard */; };
@@ -50,8 +49,6 @@
 		B70D45941E5ED1DB000E2C4D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B70D45961E5ED1DB000E2C4D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B70D45971E5ED1DB000E2C4D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B70D45991E5ED1DB000E2C4D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		B70D459A1E5ED1DB000E2C4D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		B70D459D1E5ED1DB000E2C4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B70D459F1E5ED1DB000E2C4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B70D45A21E5ED1DB000E2C4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -146,8 +143,6 @@
 				B70D45C61E5ED218000E2C4D /* TRZXPersonalCareAbout */,
 				B70D45961E5ED1DB000E2C4D /* AppDelegate.h */,
 				B70D45971E5ED1DB000E2C4D /* AppDelegate.m */,
-				B70D45991E5ED1DB000E2C4D /* ViewController.h */,
-				B70D459A1E5ED1DB000E2C4D /* ViewController.m */,
 				B70D459C1E5ED1DB000E2C4D /* Main.storyboard */,
 				B70D459F1E5ED1DB000E2C4D /* Assets.xcassets */,
 				B70D45A11E5ED1DB000E2C4D /* LaunchScreen.storyboard */,
@@ -391,7 +386,6 @@
 				B70D45D61E5ED218000E2C4D /* PersonalModell.m in Sources */,
 				B70D45D41E5ED218000E2C4D /* PersonalGuanZhuCell.m in Sources */,
 				B70D45D21E5ED218000E2C4D /* NoLabelView.m in Sources */,
-				B70D459B1E5ED1DB000E2C4D /* ViewController.m in Sources */,
 				B70D45D71E5ED218000E2C4D /* TRZXPersonalCareAboutController.m in Sources */,
 				B70D45981E5ED1DB000E2C4D /* AppDelegate.m in Sources */,
 				B70D45951E5ED1DB000E2C4D /* main.m in Sources */,
@@ -628,6 +622,7 @@
 				B70D45BF1E5ED1DB000E2C4D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B70D45C01E5ED1DB000E2C4D /* Build configuration list for PBXNativeTarget "TRZXPersonalCareAboutTests" */ = {
 			isa = XCConfigurationList;
@@ -636,6 +631,7 @@
 				B70D45C21E5ED1DB000E2C4D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B70D45C31E5ED1DB000E2C4D /* Build configuration list for PBXNativeTarget "TRZXPersonalCareAboutUITests" */ = {
 			isa = XCConfigurationList;
@@ -644,6 +640,7 @@
 				B70D45C51E5ED1DB000E2C4D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
